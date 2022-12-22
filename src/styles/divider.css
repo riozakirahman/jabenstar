@@ -1,0 +1,17 @@
+.divider {
+  margin: 0 auto;
+  width: 1280px;
+  height: 97px;
+  background-color: #ce0000;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .divider {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .divider {
+    width: 320px;
+  }
+}
