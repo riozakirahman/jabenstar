@@ -3,3 +3,6 @@
 * {
   font-family: "Inter", sans-serif;
 }
+.active {
+  color: #d9d9d9;
+}

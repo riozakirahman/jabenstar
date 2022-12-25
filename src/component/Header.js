@@ -1,8 +1,14 @@
 import React, { Fragment } from "react";
-
+import { NavLink } from "react-router-dom";
+import { useRef } from "react";
 import "../styles/header.css";
 
 const Header = () => {
+  // const linkRef = useRef();
+  // const activeLink = () => {
+  //   linkRef.current.classList.toggle("list__item_active");
+  // };
+
   return (
     <Fragment>
       <header className="header">
@@ -11,24 +17,24 @@ const Header = () => {
           <nav>
             <ul className="menu">
               <li className="menu__item">
-                <a href="" className="list__item">
+                <NavLink to="/" className="list__item">
                   About Us
-                </a>
+                </NavLink>
               </li>
               <li className="menu__item">
-                <a href="" className="list__item">
+                <NavLink to="/event" className="list__item">
                   Event
-                </a>
+                </NavLink>
               </li>
               <li className="menu__item">
-                <a href="" className="list__item">
+                <NavLink to="/org" className="list__item">
                   Organization
-                </a>
+                </NavLink>
               </li>
               <li className="menu__item">
-                <a href="" className="list__item">
+                <NavLink to="/contact" className="list__item">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </nav>

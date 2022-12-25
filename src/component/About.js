@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Header from "./Header";
 import { Intro } from "./About/Intro";
 import { Divider } from "./Divider";
 import BigFeature from "./About/BigFeature";
@@ -9,6 +10,7 @@ const About = () => {
   return (
     <>
       <main>
+        <Header></Header>
         <Intro></Intro>
         <Divider></Divider>
         <BigFeature></BigFeature>
