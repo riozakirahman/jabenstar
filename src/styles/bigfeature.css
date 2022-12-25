@@ -68,4 +68,9 @@
     letter-spacing: 0em;
     text-align: left;
   }
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

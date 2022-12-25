@@ -27,6 +27,7 @@
   align-items: flex-start;
   padding: 0px;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 .menu__item {
   list-style: none;
@@ -59,8 +60,12 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 15px;
   }
   .list__item {
     font-size: 14px;
+  }
+  .logo {
+    margin-bottom: 15px;
   }
 }

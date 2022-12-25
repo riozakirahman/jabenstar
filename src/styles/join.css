@@ -1,0 +1,44 @@
+.join {
+  width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.join-us {
+  height: 243px;
+  width: 426px;
+}
+.join__image {
+  width: 556px;
+  height: 498px;
+  background-image: url("../images/join-us.png");
+  background-size: contain;
+}
+.join-us__anchor {
+  cursor: pointer;
+  user-select: none;
+}
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .join {
+    width: 768px;
+  }
+  .join__image {
+    order: 1;
+  }
+  .join-us {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .join {
+    width: 320px;
+  }
+  .join__image {
+    order: 1;
+    width: 100%;
+    height: 279px;
+  }
+  .join-us {
+    order: 2;
+  }
+}
